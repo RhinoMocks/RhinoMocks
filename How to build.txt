@@ -6,5 +6,6 @@ You do this using the following command from the root project directory:
 You may need to allow script execution by running the following command as adminstrator:
 
 	Set-ExecutionPolicy unrestricted
-	
+
+Note: Make sure you have launched Powershell with "Run as Administrator" (otherwise the	Set-ExecutionPolicy commandlet will fail)
 Also note that the build script assume that you have git.exe on your path.
